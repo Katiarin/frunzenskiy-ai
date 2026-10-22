@@ -30,6 +30,11 @@ instance/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+examples/cache/
+
+# Research data (too large for Git, keep locally)
+data/
+*.zip
 
 # Environments
 .env
