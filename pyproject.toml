@@ -11,7 +11,7 @@ authors = [
 description = "IDU research package boilerplate"
 readme = "README.rst"
 requires-python = ">=3.10"
-license = { file = "LICENCE" }
+license = { file = "LICENSE" }
 
 dependencies = [ # здесь необходимо вести все устанавливаемые зависимости: пакеты, которые необходимы для адекватной работы вашей библиотеки
     "geopandas>=1.0.0,<2.0.0",

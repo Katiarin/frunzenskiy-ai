@@ -21,11 +21,11 @@ install: # простая установка зависимостей без edi
 install-dev: # установка зависимостей для разработки
 	pip install -e '.[dev]'
 
-install-docs: # установка зависимостей для тестирования
+install-docs: # установка зависимостей для сборки документации
 	pip install -e '.[docs]'
 
-install-test: # установка зависимостей для сборки документации
-	pip install -e '.[test]'
+install-test: # установка зависимостей для тестирования
+	pip install -e '.[tests]'
 
 # building the package
 
